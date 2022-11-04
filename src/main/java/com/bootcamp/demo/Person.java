@@ -3,6 +3,7 @@ package com.bootcamp.demo;
 public class Person {
     private String firstName;
     private String lastName;
+    private String address;
 
     public Person() {
         // TODO Auto-generated constructor stub
@@ -28,5 +29,12 @@ public class Person {
     public void setLastName(String lastName) {
         this.lastName = lastName;
     }
+    
+    public void setAddress(String address) {
+        this.address = address;
+    }
 
+    public String getAddress() {
+        return address;
+    }
 }
