@@ -5,6 +5,7 @@ public class Person {
     private String lastName;
     private String address;
     private int age;
+    private String email;
 
     public Person() {
     }
@@ -44,5 +45,13 @@ public class Person {
 
     public int getAge() {
         return age;
+    }
+    
+    public void setEmail(String email) {
+        this.email = email;
+    }
+    
+    public String getEmail() {
+        return email;
     }
 }
